@@ -61,5 +61,3 @@ production env (config file: `.env-production`):
 
     NODE_CONFIG_DIR
     NODE_ENV
-    AWS_ACCESS_KEY_ID
-    AWS_SECRET_ACCESS_KEY
