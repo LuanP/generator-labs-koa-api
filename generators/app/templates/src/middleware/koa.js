@@ -1,9 +1,9 @@
 const R = require('ramda')
-const Raven = require('../helpers/sentryLog')
+const Raven = require('../helpers/sentry-log')
 const logger = require('../middleware/log')
 const koaLogger = require('koa-bunyan-logger')
 const slackNotifier = require('../helpers/slack.js')
-const error = require('../helpers/responseHandler').errorCatalog
+const error = require('../helpers/response-handler').errorCatalog
 const config = require('config')
 
 module.exports = (app) => {

@@ -5,6 +5,8 @@ const parse = require('co-body')
 const router = require('koa-router')()
 const pjson = require('../package.json')
 
+const major = pjson.version.split('.')[0]
+
 module.exports = (app) => {
   app.use(async (ctx, next) => {
     try {
@@ -15,8 +17,7 @@ module.exports = (app) => {
   })
 
   app.use(mount('/logs', require('./resources/logs')))
-  app.use(mount('/db', require('./resources/db')))
-  app.use(mount('/v1/examples', require('./resources/examples')))
+  app.use(mount(`/v${major}/examples`, require('./resources/examples')))
 
   // pings
   app.use(router.get('/', async (ctx) => {

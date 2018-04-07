@@ -1,7 +1,7 @@
-const Raven = require('../helpers/sentryLog')
+const Raven = require('../helpers/sentry-log')
 const pjson = require('../../package.json')
-const responseHandler = require('../helpers/responseHandler')
-const error = require('../helpers/responseHandler').errorHandler
+const responseHandler = require('../helpers/response-handler')
+const error = require('../helpers/response-handler').errorHandler
 
 /**
  * Method: Generate the standard api response

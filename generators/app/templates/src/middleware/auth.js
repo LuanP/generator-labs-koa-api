@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken')
 const config = require('config')
 const fs = require('fs')
-const Raven = require('../helpers/sentryLog')
-const error = require('../helpers/responseHandler').errorHandler
+const Raven = require('../helpers/sentry-log')
+const error = require('../helpers/response-handler').errorHandler
 
 const cert = fs.readFileSync(`${config.root}/keys/users.public.pem`, { encoding: 'utf8' })
 const allowedRoutes = [

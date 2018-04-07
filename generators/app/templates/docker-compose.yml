@@ -18,7 +18,7 @@ services:
       PORT: 8080
       DB_HOST: db
       DB_PORT: 3306
-      DB_USER: <%= projectUnderscoredName %>
+      DB_USERNAME: <%= projectUnderscoredName %>
       DB_PASSWORD: <%= projectUnderscoredName %>
       NODE_CONFIG_DIR: ./src/config
     ports:

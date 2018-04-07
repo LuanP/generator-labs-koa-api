@@ -8,7 +8,6 @@ var base = {
   env: env,
   root: root,
   port: process.env.PORT || 9000,
-  knexDialect: process.env.KNEX_DIALECT || 'mysql2',
   logging: process.env.SHOULD_LOG === 'true', // default false
   db: {
     name: process.env.DB_NAME || '<%= projectUnderscoredName %>',

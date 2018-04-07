@@ -30,9 +30,9 @@ GPL-3.0 © [Luan Pablo]()
 
 [npm-image]: https://badge.fury.io/js/generator-labs-koa-api.svg
 [npm-url]: https://npmjs.org/package/generator-labs-koa-api
-[travis-image]: https://travis-ci.org/luanpablo-luizalabs/generator-labs-koa-api.svg?branch=master
-[travis-url]: https://travis-ci.org/luanpablo-luizalabs/generator-labs-koa-api
-[daviddm-image]: https://david-dm.org/luanpablo-luizalabs/generator-labs-koa-api.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/luanpablo-luizalabs/generator-labs-koa-api
-[coveralls-image]: https://coveralls.io/repos/luanpablo-luizalabs/generator-labs-koa-api/badge.svg
-[coveralls-url]: https://coveralls.io/r/luanpablo-luizalabs/generator-labs-koa-api
+[travis-image]: https://travis-ci.org/luanp/generator-labs-koa-api.svg?branch=master
+[travis-url]: https://travis-ci.org/luanp/generator-labs-koa-api
+[daviddm-image]: https://david-dm.org/luanp/generator-labs-koa-api.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/luanp/generator-labs-koa-api
+[coveralls-image]: https://coveralls.io/repos/luanp/generator-labs-koa-api/badge.svg
+[coveralls-url]: https://coveralls.io/r/luanp/generator-labs-koa-api
